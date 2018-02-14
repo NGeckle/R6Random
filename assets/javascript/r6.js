@@ -79,76 +79,126 @@ var dokkaebiPrimary = ["MK14 EBR", "BOSG 12.2"];
 var dokkaebiSecondary = ["C75 Auto", "SMG-12"];
 var dokkaebiEquipment = ["Smoke Grenade", "Claymore"];
 
-var smokePrimary
-var smokeSecondary
-var smokeEquipment
+var smokePrimary = ["FMG-9", "M590A1"];
+var smokeSecondary = ["P226 MK 25", "SMG-11"];
+var smokeEquipment = ["Barbed Wire", "Impact Grenade"];
 
-var mutePrimary
-var muteSecondary
-var muteEquipment
+var mutePrimary = ["M590A1", "MP5K"];
+var muteSecondary = ["P226 MK 25"];
+var muteEquipment = ["Deployable Shield", "Nitro Cell"];
 
-var castlePrimary
-var castleSecondary
-var castleEquipment
+var castlePrimary = ["UMP45", "M1014"];
+var castleSecondary = ["5.7 USG", "M45 MEUSOC"];
+var castleEquipment = ["Impact Grenade", "Deployable Shield"];
 
-var pulsePrimary
-var pulseSecondary
-var pulseEquipment
+var pulsePrimary = ["UMP45", "M1014"];
+var pulseSecondary = ["5.7 USG", "M45 MEUSOC"];
+var pulseEquipment = ["Nitro Cell", "Barbed Wire"];
 
-var docPrimary
-var docSecondary
-var docEquipment
+var docPrimary = ["SG-CQB", "MP5", "P90"];
+var docSecondary = ["P9", "LFP586"];
+var docEquipment = ["Barbed Wire", "Deployable Shield"];
 
-var rookPrimary
-var rookSecondary
-var rookEquipment
+var rookPrimary = ["SG-CQB", "MP5", "P90"];
+var rookSecondary = ["P9", "LFP586"];
+var rookEquipment = ["Impact Grenade", "Deployable Shield"];
 
-var kapkanPrimary
-var kapkanSecondary
-var kapkanEquipment
+var kapkanPrimary = ["9x19VSN", "SASG-12"];
+var kapkanSecondary = ["PMM", "GSH-18"];
+var kapkanEquipment = ["Nitro Cell", "Barbed Wire"];
 
-var tachankaPrimary
-var tachankaSecondary
-var tachankaEquipment
+var tachankaPrimary = ["9x19VSN", "SASG-12"];
+var tachankaSecondary = ["PMM", "GSH-18"];
+var tachankaEquipment = ["Deployable Shield", "Barbed Wire"];
 
-var jagerPrimary
-var jagerSecondary
-var jagerEquipment
+var jagerPrimary = ["M870", "416-C Carbine"];
+var jagerSecondary = ["P12"];
+var jagerEquipment = ["Deployable Shield", "Barbed Wire"];
 
-var banditPrimary
-var banditSecondary
-var banditEquipment
+var banditPrimary = ["M870", "MP7"];
+var banditSecondary = ["P12"];
+var banditEquipment = ["Barbed Wire", "Nitro Cell"];
 
-var frostPrimary
-var frostSecondary
-var frostEquipment
+var frostPrimary = ["Super 90", "9MM C1"];
+var frostSecondary = ["MK1 9MM"];
+var frostEquipment = ["Deployable Shield", "Barbed Wire"];
 
-var valkyriePrimary
-var valkyrieSecondary
-var valkyrieEquipment
+var valkyriePrimary = ["MPX", "SPAS-12"];
+var valkyrieSecondary = ["D-50"];
+var valkyrieEquipment = ["Deployable Shield", "Nitro Cell"];
 
-var caveiraPrimary
-var caveiraSecondary
-var caveiraEquipment
+var caveiraPrimary = ["M12", "SPAS-15"];
+var caveiraSecondary = ["Luison"];
+var caveiraEquipment = ["Impact Grenade", "Barbed Wire"];
 
-var echoPrimary
-var echoSecondary
-var echoEquipment
+var echoPrimary = ["MP5SD", "Supernova"];
+var echoSecondary = ["P229", "Bearing 9"];
+var echoEquipment = ["Deployable Shield", "Barbed Wire"];
 
-var miraPrimary
-var miraSecondary
-var miraEquipment
+var miraPrimary = ["Vector .45 ACP", "ITA12L"];
+var miraSecondary = ["ITA12S", "USP40"];
+var miraEquipment = ["Deployable Shield", "Nitro Cell"];
 
-var lesionPrimary
-var lesionSecondary
-var lesionEquipment
+var lesionPrimary = ["SIX12 SD", "T-5 SMG"];
+var lesionSecondary = ["Q-929"];
+var lesionEquipment = ["Deployable Shield", "Impact Grenade"];
 
-var elaPrimary
-var elaSecondary
-var elaEquipment
+var elaPrimary = ["Scorpian EVO 3 A1", "FO-12"];
+var elaSecondary = ["RG15"];
+var elaEquipment = ["Barbed Wire", "Impact Grenade"];
 
-var vigilPrimary
-var vigilSecondary
-var vigilEquipment
+var vigilPrimary = ["K1A", "BOSG 12.2"];
+var vigilSecondary = ["C75 Auto", "SMG-12"];
+var vigilEquipment = ["Barbed Wire", "Impact Grenade"];
+
+var sasAPrimary = ["M590A1", "L85A2", "AR33"];
+var sasASecondary = ["P226 MK 25", "SMG-11"];
+var sasAEquipment1 = ["Breach Charge", "Smoke Grenade"];
+var sasAEquipment2 = ["Flash Grenade", "Frag Grenade"];
+
+var fbiAPrimary = ["Ballistic Shield", "M1014", "R4-C", "556XI"];
+var fbiASecondary = ["M45 MEUSOC", "5.7 USG"];
+var fbiAEquipment1 = ["Breach Charge", "Smoke Grenade"];
+var fbiAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+
+var gignAPrimary = ["F2", "Ballistic Shield", "417", "SG-CQB"];
+var gignASecondary = ["P9", "LFP586"];
+var gignAEquipment1 = ["Breach Charge", "Smoke Grenade"];
+var gignAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+
+var spetsnazAPrimary = ["AK-12", "SASG-12", "6P41"];
+var spetsnazASecondary = ["PMM", "GSH-18"];
+var spetsnazAEquipment1 = ["Breach Charge", "Smoke Grenade"];
+var spetsnazAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+
+var gsg9APrimary = ["M870", "G8A1", "AUG A2", "552 Commando"];
+var gsg9ASecondary = ["P12"];
+var gsg9AEquipment1 = ["Breach Charge", "Smoke Grenade"];
+var gsg9AEquipment2 = ["Frag Grenade", "Flash Grenade"];
+
+var sasDPrimary = ["MP5K", "M590A1", "FMG-9"];
+var sasDSecondary = ["P226 MK 25", "SMG-11"];
+var sasDEquipment1 = ["Barbed Wire"];
+var sasDEquipment2 = ["Deployable Shield", "Nitro Cell"];
+
+var fbiDPrimary = ["UMP45", "M1014"];
+var fbiDSecondary = ["M45 MEUSOC", "5.7 USG"];
+var fbiDEquipment1 = ["Barbed Wire"];
+var fbiDEquipment2 = ["Deployable Shield", "Nitro Cell"];
+
+var gignDPrimary = ["MP5", "P90", "SG-CQB"];
+var gignDSecondary = ["P9", "LFP586"];
+var gignDEquipment1 = ["Barbed Wire"];
+var gignDEquipment2 = ["Deployable Shield", "Nitro Cell"];
+
+var spetsnazDPrimary = ["9x19VSN", "SASG-12"];
+var spetsnazDSecondary = ["PMM", "GSH-18"];
+var spetsnazDEquipment1 = ["Barbed Wire"];
+var spetsnazDEquipment2 = ["Deployable Shield", "Nitro Cell"];
+
+var gsg9DPrimary = ["M870", "MP7", "416-C Carbine"];
+var gsg9DSecondary = ["P12"];
+var gsg9DEquipment1 = ["Barbed Wire"];
+var gsg9DEquipment2 = ["Deployable Shield", "Nitro Cell"];
 
 
