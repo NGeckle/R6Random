@@ -217,6 +217,7 @@ $(document).ready(function() {
             $("#display-pgun").text(ashPRand);
             $("#display-sgun").text(ashSRand);
             $("#display-equip").text(ashERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Sledge") {
@@ -226,6 +227,7 @@ $(document).ready(function() {
             $("#display-pgun").text(sledgePRand);
             $("#display-sgun").text(sledgeSRand);
             $("#display-equip").text(sledgeERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Thatcher") {
@@ -235,6 +237,7 @@ $(document).ready(function() {
             $("#display-pgun").text(thatcherPRand);
             $("#display-sgun").text(thatcherSRand);
             $("#display-equip").text(thatcherERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Thermite") {
@@ -244,6 +247,7 @@ $(document).ready(function() {
             $("#display-pgun").text(thermitePRand);
             $("#display-sgun").text(thermiteSRand);
             $("#display-equip").text(thermiteERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Twitch") {
@@ -253,6 +257,7 @@ $(document).ready(function() {
             $("#display-pgun").text(twitchPRand);
             $("#display-sgun").text(twitchSRand);
             $("#display-equip").text(twitchERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Montagne") {
@@ -262,6 +267,7 @@ $(document).ready(function() {
             $("#display-pgun").text(montagnePRand);
             $("#display-sgun").text(montagneSRand);
             $("#display-equip").text(montagneERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Glaz") {
@@ -271,6 +277,7 @@ $(document).ready(function() {
             $("#display-pgun").text(glazPRand);
             $("#display-sgun").text(glazSRand);
             $("#display-equip").text(glazERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Fuze") {
@@ -280,6 +287,7 @@ $(document).ready(function() {
             $("#display-pgun").text(fuzePRand);
             $("#display-sgun").text(fuzeSRand);
             $("#display-equip").text(fuzeERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Blitz") {
@@ -289,6 +297,7 @@ $(document).ready(function() {
             $("#display-pgun").text(blitzPRand);
             $("#display-sgun").text(blitzSRand);
             $("#display-equip").text(blitzERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "IQ") {
@@ -298,6 +307,7 @@ $(document).ready(function() {
             $("#display-pgun").text(iqPRand);
             $("#display-sgun").text(iqSRand);
             $("#display-equip").text(iqERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Buck") {
@@ -307,6 +317,7 @@ $(document).ready(function() {
             $("#display-pgun").text(buckPRand);
             $("#display-sgun").text(buckSRand);
             $("#display-equip").text(buckERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Blackbeard") {
@@ -316,6 +327,7 @@ $(document).ready(function() {
             $("#display-pgun").text(blackbeardPRand);
             $("#display-sgun").text(blackbeardSRand);
             $("#display-equip").text(blackbeardERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Capitao") {
@@ -325,6 +337,7 @@ $(document).ready(function() {
             $("#display-pgun").text(capitaoPRand);
             $("#display-sgun").text(capitaoSRand);
             $("#display-equip").text(capitaoERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Hibana") {
@@ -334,6 +347,7 @@ $(document).ready(function() {
             $("#display-pgun").text(hibanaPRand);
             $("#display-sgun").text(hibanaSRand);
             $("#display-equip").text(hibanaERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Jackal") {
@@ -343,6 +357,7 @@ $(document).ready(function() {
             $("#display-pgun").text(jackalPRand);
             $("#display-sgun").text(jackalSRand);
             $("#display-equip").text(jackalERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Ying") {
@@ -352,6 +367,7 @@ $(document).ready(function() {
             $("#display-pgun").text(yingPRand);
             $("#display-sgun").text(yingSRand);
             $("#display-equip").text(yingERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Zofia") {
@@ -361,6 +377,7 @@ $(document).ready(function() {
             $("#display-pgun").text(zofiaPRand);
             $("#display-sgun").text(zofiaSRand);
             $("#display-equip").text(zofiaERand);
+            $("#display-equip2").text("");
         }
 
         if (attackOpsRand === "Dokkaebi") {
@@ -370,6 +387,7 @@ $(document).ready(function() {
             $("#display-pgun").text(dokkaebiPRand);
             $("#display-sgun").text(dokkaebiSRand);
             $("#display-equip").text(dokkaebiERand);
+            $("#display-equip2").text("");
         }
         
     })
@@ -385,6 +403,7 @@ $(document).ready(function() {
             $("#display-pgun").text(smokePRand);
             $("#display-sgun").text(smokeSRand);
             $("#display-equip").text(smokeERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Mute") {
@@ -394,6 +413,7 @@ $(document).ready(function() {
             $("#display-pgun").text(mutePRand);
             $("#display-sgun").text(muteSRand);
             $("#display-equip").text(muteERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Castle") {
@@ -403,6 +423,7 @@ $(document).ready(function() {
             $("#display-pgun").text(castlePRand);
             $("#display-sgun").text(castleSRand);
             $("#display-equip").text(castleERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Pulse") {
@@ -412,6 +433,7 @@ $(document).ready(function() {
             $("#display-pgun").text(pulsePRand);
             $("#display-sgun").text(pulseSRand);
             $("#display-equip").text(pulseERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Doc") {
@@ -421,6 +443,7 @@ $(document).ready(function() {
             $("#display-pgun").text(docPRand);
             $("#display-sgun").text(docSRand);
             $("#display-equip").text(docERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Rook") {
@@ -430,6 +453,7 @@ $(document).ready(function() {
             $("#display-pgun").text(rookPRand);
             $("#display-sgun").text(rookSRand);
             $("#display-equip").text(rookERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Kapkan") {
@@ -439,6 +463,7 @@ $(document).ready(function() {
             $("#display-pgun").text(kapkanPRand);
             $("#display-sgun").text(kapkanSRand);
             $("#display-equip").text(kapkanERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Tachanka") {
@@ -448,6 +473,7 @@ $(document).ready(function() {
             $("#display-pgun").text(tachankaPRand);
             $("#display-sgun").text(tachankaSRand);
             $("#display-equip").text(tachankaERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Jager") {
@@ -457,6 +483,7 @@ $(document).ready(function() {
             $("#display-pgun").text(jagerPRand);
             $("#display-sgun").text(jagerSRand);
             $("#display-equip").text(jagerERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Bandit") {
@@ -464,8 +491,9 @@ $(document).ready(function() {
             var banditSRand = banditSecondary[Math.floor(Math.random() * banditSecondary.length)];
             var banditERand = banditEquipment[Math.floor(Math.random() * banditEquipment.length)];
             $("#display-pgun").text(banditPRand);
-            $("#display-sgun").text(baditSRand);
+            $("#display-sgun").text(banditSRand);
             $("#display-equip").text(banditERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Frost") {
@@ -475,6 +503,7 @@ $(document).ready(function() {
             $("#display-pgun").text(frostPRand);
             $("#display-sgun").text(frostSRand);
             $("#display-equip").text(frostERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Valkyrie") {
@@ -484,6 +513,7 @@ $(document).ready(function() {
             $("#display-pgun").text(valkyriePRand);
             $("#display-sgun").text(valkyrieSRand);
             $("#display-equip").text(valkyrieERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Caveira") {
@@ -493,6 +523,7 @@ $(document).ready(function() {
             $("#display-pgun").text(caveiraPRand);
             $("#display-sgun").text(caveiraSRand);
             $("#display-equip").text(caveiraERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Echo") {
@@ -502,6 +533,7 @@ $(document).ready(function() {
             $("#display-pgun").text(echoPRand);
             $("#display-sgun").text(echoSRand);
             $("#display-equip").text(echoERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Mira") {
@@ -511,6 +543,7 @@ $(document).ready(function() {
             $("#display-pgun").text(miraPRand);
             $("#display-sgun").text(miraSRand);
             $("#display-equip").text(miraERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Lesion") {
@@ -520,6 +553,7 @@ $(document).ready(function() {
             $("#display-pgun").text(lesionPRand);
             $("#display-sgun").text(lesionSRand);
             $("#display-equip").text(lesionERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Ela") {
@@ -529,6 +563,7 @@ $(document).ready(function() {
             $("#display-pgun").text(elaPRand);
             $("#display-sgun").text(elaSRand);
             $("#display-equip").text(elaERand);
+            $("#display-equip2").text("");
         }
 
         if (defendOpsRand === "Vigil") {
@@ -538,6 +573,7 @@ $(document).ready(function() {
             $("#display-pgun").text(vigilPRand);
             $("#display-sgun").text(vigilSRand);
             $("#display-equip").text(vigilERand);
+            $("#display-equip2").text("");
         }
     })
 
@@ -552,7 +588,7 @@ $(document).ready(function() {
             var sasAE2Rand = sasAEquipment2[Math.floor(Math.random() * sasAEquipment2.length)];
             $("#display-pgun").text(sasAPRand);
             $("#display-sgun").text(sasASRand);
-            $("#display-equip1").text(sasAE1Rand);
+            $("#display-equip").text(sasAE1Rand);
             $("#display-equip2").text(sasAE2Rand);
         }
 
@@ -563,7 +599,7 @@ $(document).ready(function() {
             var fbiAE2Rand = fbiAEquipment2[Math.floor(Math.random() * fbiAEquipment2.length)];
             $("#display-pgun").text(fbiAPRand);
             $("#display-sgun").text(fbiASRand);
-            $("#display-equip1").text(fbiAE1Rand);
+            $("#display-equip").text(fbiAE1Rand);
             $("#display-equip2").text(fbiAE2Rand);
         }
 
@@ -574,7 +610,7 @@ $(document).ready(function() {
             var gignAE2Rand = gignAEquipment2[Math.floor(Math.random() * gignAEquipment2.length)];
             $("#display-pgun").text(gignAPRand);
             $("#display-sgun").text(gignASRand);
-            $("#display-equip1").text(gignAE1Rand);
+            $("#display-equip").text(gignAE1Rand);
             $("#display-equip2").text(gignAE2Rand);
         }
 
@@ -585,7 +621,7 @@ $(document).ready(function() {
             var spetsnazAE2Rand = spetsnazAEquipment2[Math.floor(Math.random() * spetsnazAEquipment2.length)];
             $("#display-pgun").text(spetsnazAPRand);
             $("#display-sgun").text(spetsnazASRand);
-            $("#display-equip1").text(spetsnazAE1Rand);
+            $("#display-equip").text(spetsnazAE1Rand);
             $("#display-equip2").text(spetsnazAE2Rand);
         }
 
@@ -596,7 +632,7 @@ $(document).ready(function() {
             var gsg9AE2Rand = gsg9AEquipment2[Math.floor(Math.random() * gsg9AEquipment2.length)];
             $("#display-pgun").text(gsg9APRand);
             $("#display-sgun").text(gsg9ASRand);
-            $("#display-equip1").text(gsg9AE1Rand);
+            $("#display-equip").text(gsg9AE1Rand);
             $("#display-equip2").text(gsg9AE2Rand);
         }
     })
@@ -612,7 +648,7 @@ $(document).ready(function() {
             var sasDE2Rand = sasDEquipment2[Math.floor(Math.random() * sasDEquipment2.length)];
             $("#display-pgun").text(sasDPRand);
             $("#display-sgun").text(sasDSRand);
-            $("#display-equip1").text(sasDE1Rand);
+            $("#display-equip").text(sasDE1Rand);
             $("#display-equip2").text(sasDE2Rand);
         }
 
@@ -623,7 +659,7 @@ $(document).ready(function() {
             var fbiDE2Rand = fbiDEquipment2[Math.floor(Math.random() * fbiDEquipment2.length)];
             $("#display-pgun").text(fbiDPRand);
             $("#display-sgun").text(fbiDSRand);
-            $("#display-equip1").text(fbiDE1Rand);
+            $("#display-equip").text(fbiDE1Rand);
             $("#display-equip2").text(fbiDE2Rand);
         }
 
@@ -634,7 +670,7 @@ $(document).ready(function() {
             var gignDE2Rand = gignDEquipment2[Math.floor(Math.random() * gignDEquipment2.length)];
             $("#display-pgun").text(gignDPRand);
             $("#display-sgun").text(gignDSRand);
-            $("#display-equip1").text(gignDE1Rand);
+            $("#display-equip").text(gignDE1Rand);
             $("#display-equip2").text(gignDE2Rand);
         }
 
@@ -645,7 +681,7 @@ $(document).ready(function() {
             var spetsnazDE2Rand = spetsnazDEquipment2[Math.floor(Math.random() * spetsnazDEquipment2.length)];
             $("#display-pgun").text(spetsnazDPRand);
             $("#display-sgun").text(spetsnazDSRand);
-            $("#display-equip1").text(spetsnazDE1Rand);
+            $("#display-equip").text(spetsnazDE1Rand);
             $("#display-equip2").text(spetsnazDE2Rand);
         }
 
@@ -656,7 +692,7 @@ $(document).ready(function() {
             var gsg9DE2Rand = gsg9DEquipment2[Math.floor(Math.random() * gsg9DEquipment2.length)];
             $("#display-pgun").text(gsg9DPRand);
             $("#display-sgun").text(gsg9DSRand);
-            $("#display-equip1").text(gsg9DE1Rand);
+            $("#display-equip").text(gsg9DE1Rand);
             $("#display-equip2").text(gsg9DE2Rand);
         }
     })
