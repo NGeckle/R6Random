@@ -1,6 +1,6 @@
 //Arrays
 $(document).ready(function() {
-    var attackOps = ["Ash", "Sledge", "Thatcher", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck", "Blackbeard", "Capitao", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi"];
+    var attackOps = ["Ash", "Sledge", "Thatcher", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck", "Blackbeard", "Capitao", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka"];
 
     var defendOps = ["Smoke", "Mute", "Castle", "Pulse", "Doc", "Rook", "Kapkan", "Tachanka", "Jager", "Bandit", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil"];
 
@@ -80,6 +80,14 @@ $(document).ready(function() {
     var dokkaebiSecondary = ["C75 Auto", "SMG-12"];
     var dokkaebiEquipment = ["Smoke Grenade", "Claymore"];
 
+    var lionPrimary = ["V308", "417", "SG-CQB"];
+    var lionSecondary = ["P9", "LFP586"];
+    var lionEquipment = ["CLaymore", "Flash Grenade"];
+
+    var finkaPrimary = ["Spear .308", "6P41", "SASG-12"];
+    var finkaSecondary = ["PMM", "GSH-18"];
+    var finkaEquipment = ["Breach Charge", "Flash Grenade"];
+
     var smokePrimary = ["FMG-9", "M590A1"];
     var smokeSecondary = ["P226 MK 25", "SMG-11"];
     var smokeEquipment = ["Barbed Wire", "Impact Grenade"];
@@ -106,7 +114,7 @@ $(document).ready(function() {
 
     var kapkanPrimary = ["9x19VSN", "SASG-12"];
     var kapkanSecondary = ["PMM", "GSH-18"];
-    var kapkanEquipment = ["Nitro Cell", "Barbed Wire"];
+    var kapkanEquipment = ["Nitro Cell", "Impact Grenade"];
 
     var tachankaPrimary = ["9x19VSN", "SASG-12"];
     var tachankaSecondary = ["PMM", "GSH-18"];
@@ -387,6 +395,26 @@ $(document).ready(function() {
             $("#display-pgun").text(dokkaebiPRand);
             $("#display-sgun").text(dokkaebiSRand);
             $("#display-equip").text(dokkaebiERand);
+            $("#display-equip2").text("");
+        }
+
+        if (attackOpsRand === "Lion") {
+            var lionPRand = lionPrimary[Math.floor(Math.random() * lionPrimary.length)];
+            var lionSRand = lionSecondary[Math.floor(Math.random() * lionSecondary.length)];
+            var lionERand = lionEquipment[Math.floor(Math.random() * lionEquipment.length)];
+            $("#display-pgun").text(lionPRand);
+            $("#display-sgun").text(lionSRand);
+            $("#display-equip").text(lionERand);
+            $("#display-equip2").text("");
+        }
+
+        if (attackOpsRand === "Finka") {
+            var finkaPRand = finkaPrimary[Math.floor(Math.random() * finkaPrimary.length)];
+            var finkaSRand = finkaSecondary[Math.floor(Math.random() * finkaSecondary.length)];
+            var finkaERand = finkaEquipment[Math.floor(Math.random() * finkaEquipment.length)];
+            $("#display-pgun").text(finkaPRand);
+            $("#display-sgun").text(finkaSRand);
+            $("#display-equip").text(finkaERand);
             $("#display-equip2").text("");
         }
         
