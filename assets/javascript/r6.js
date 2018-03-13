@@ -154,7 +154,7 @@ $(document).ready(function() {
 
     var elaPrimary = ["Scorpian EVO 3 A1", "FO-12"];
     var elaSecondary = ["RG15"];
-    var elaEquipment = ["Barbed Wire", "Impact Grenade"];
+    var elaEquipment = ["Barbed Wire", "Deployable Shield"];
 
     var vigilPrimary = ["K1A", "BOSG 12.2"];
     var vigilSecondary = ["C75 Auto", "SMG-12"];
