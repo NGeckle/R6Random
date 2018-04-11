@@ -418,7 +418,7 @@ $(document).ready(function() {
             $("#display-equip2").text("");
         }
         
-    })
+    });
 
     $("#defend-op").on("click", function() {
         var defendOpsRand = defendOps[Math.floor(Math.random() * defendOps.length)];
@@ -603,7 +603,7 @@ $(document).ready(function() {
             $("#display-equip").text(vigilERand);
             $("#display-equip2").text("");
         }
-    })
+    });
 
     $("#recruit-attack").on("click", function() {
         var recruitAttackRand = recruitAttack[Math.floor(Math.random() * recruitAttack.length)];
@@ -663,7 +663,8 @@ $(document).ready(function() {
             $("#display-equip").text(gsg9AE1Rand);
             $("#display-equip2").text(gsg9AE2Rand);
         }
-    })
+    });
+
     $("#recruit-defend").on("click", function() {
         var recruitDefendRand = recruitDefend[Math.floor(Math.random() * recruitDefend.length)];
         $("#display-op").text(recruitDefendRand);
@@ -723,5 +724,5 @@ $(document).ready(function() {
             $("#display-equip").text(gsg9DE1Rand);
             $("#display-equip2").text(gsg9DE2Rand);
         }
-    })
+    });
 });
