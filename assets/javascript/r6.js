@@ -10,11 +10,11 @@ $(document).ready(function() {
     //Guns and equipment
     var ashPrimary = ["G36C", "R4-C"];
     var ashSecondary = ["M45 MEUSOC", "5.7 USG"];
-    var ashEquipment = ["Breach Charge", "Flash Grenade"];
+    var ashEquipment = ["Breach Charge", "Stun Grenade"];
 
     var sledgePrimary = ["M590A1", "L85A2"];
     var sledgeSecondary = ["P226 MK 25", "SMG-11"];
-    var sledgeEquipment = ["Frag Grenade", "Flash Grendade"];
+    var sledgeEquipment = ["Frag Grenade", "Stun Grendade"];
 
     var thatcherPrimary = ["AR33", "M590A1", "L85A2"];
     var thatcherSecondary =["P226 MK 25"];
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
     var thermitePrimary = ["M1014", "556XI"];
     var thermiteSecondary = ["M45 MEUSOC", "5.7 USG"];
-    var thermiteEquipment = ["Claymore", "Flash Grenade"];
+    var thermiteEquipment = ["Claymore", "Stun Grenade"];
 
     var twitchPrimary = ["F2", "417", "SG-CQB"];
     var twitchSecondary = ["P9", "LFP586"];
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     var montagnePrimary = ["Extendable Shield"];
     var montagneSecondary = ["P9", "LFP586"];
-    var montagneEquipment = ["Flash Grenade", "Smoke Grenade"];
+    var montagneEquipment = ["Stun Grenade", "Smoke Grenade"];
 
     var glazPrimary = ["OTs-03"];
     var glazSecondary = ["GSH-18", "PMM"];
@@ -40,7 +40,7 @@ $(document).ready(function() {
     var fuzeSecondary = ["GSH-18", "PMM"];
     var fuzeEquipment = ["Breach Charge", "Smoke Grenade"];
 
-    var blitzPrimary = ["Flash Shield"];
+    var blitzPrimary = ["Stun Shield"];
     var blitzSecondary = ["P12"];
     var blitzEquipment = ["Breach Charge", "Smoke Grenade"];
 
@@ -50,19 +50,19 @@ $(document).ready(function() {
 
     var buckPrimary = ["C8-SFW", "CAMRS"];
     var buckSecondary = ["MK1 9MM"];
-    var buckEquipment = ["Frag Grenade", "Flash Grenade"];
+    var buckEquipment = ["Frag Grenade", "Stun Grenade"];
 
     var blackbeardPrimary = ["MK17 CQB", "SR-25"];
     var blackbeardSecondary = ["D-50"];
-    var blackbeardEquipment = ["Breach Charge", "Flash Grenade"];
+    var blackbeardEquipment = ["Breach Charge", "Stun Grenade"];
 
     var capitaoPrimary = ["PARA-308", "M249"];
     var capitaoSecondary = ["PRB92"];
-    var capitaoEquipment = ["Claymore", "Flash Grenade"];
+    var capitaoEquipment = ["Claymore", "Stun Grenade"];
 
     var hibanaPrimary = ["Type-89", "Supernova"];
     var hibanaSecondary = ["P229", "Bearing 9"];
-    var hibanaEquipment = ["Flash Grenade", "Claymore"];
+    var hibanaEquipment = ["Stun Grenade", "Breach Charge"];
 
     var jackalPrimary = ["C7E", "PDW9", "ITA12L"];
     var jackalSecondary = ["ITA12S", "USP40"];
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     var yingPrimary = ["T-95 LSW", "SIX12"];
     var yingSecondary = ["Q-929"];
-    var yingEquipment = ["Breach Charge", "Smoke Grenade"];
+    var yingEquipment = ["Breach Charge", "Claymore"];
 
     var zofiaPrimary = ["LMG-E", "M762"];
     var zofiaSecondary = ["RG15"];
@@ -82,11 +82,11 @@ $(document).ready(function() {
 
     var lionPrimary = ["V308", "417", "SG-CQB"];
     var lionSecondary = ["P9", "LFP586"];
-    var lionEquipment = ["CLaymore", "Flash Grenade"];
+    var lionEquipment = ["CLaymore", "Stun Grenade"];
 
     var finkaPrimary = ["Spear .308", "6P41", "SASG-12"];
     var finkaSecondary = ["PMM", "GSH-18"];
-    var finkaEquipment = ["Breach Charge", "Flash Grenade"];
+    var finkaEquipment = ["Breach Charge", "Stun Grenade"];
 
     var smokePrimary = ["FMG-9", "M590A1"];
     var smokeSecondary = ["P226 MK 25", "SMG-11"];
@@ -163,27 +163,27 @@ $(document).ready(function() {
     var sasAPrimary = ["M590A1", "L85A2", "AR33"];
     var sasASecondary = ["P226 MK 25", "SMG-11"];
     var sasAEquipment1 = ["Breach Charge", "Smoke Grenade"];
-    var sasAEquipment2 = ["Flash Grenade", "Frag Grenade"];
+    var sasAEquipment2 = ["Stun Grenade", "Frag Grenade"];
 
     var fbiAPrimary = ["Ballistic Shield", "M1014", "R4-C", "556XI"];
     var fbiASecondary = ["M45 MEUSOC", "5.7 USG"];
     var fbiAEquipment1 = ["Breach Charge", "Smoke Grenade"];
-    var fbiAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+    var fbiAEquipment2 = ["Frag Grenade", "Stun Grenade"];
 
     var gignAPrimary = ["F2", "Ballistic Shield", "417", "SG-CQB"];
     var gignASecondary = ["P9", "LFP586"];
     var gignAEquipment1 = ["Breach Charge", "Smoke Grenade"];
-    var gignAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+    var gignAEquipment2 = ["Frag Grenade", "Stun Grenade"];
 
     var spetsnazAPrimary = ["AK-12", "SASG-12", "6P41"];
     var spetsnazASecondary = ["PMM", "GSH-18"];
     var spetsnazAEquipment1 = ["Breach Charge", "Smoke Grenade"];
-    var spetsnazAEquipment2 = ["Frag Grenade", "Flash Grenade"];
+    var spetsnazAEquipment2 = ["Frag Grenade", "Stun Grenade"];
 
     var gsg9APrimary = ["M870", "G8A1", "AUG A2", "552 Commando"];
     var gsg9ASecondary = ["P12"];
     var gsg9AEquipment1 = ["Breach Charge", "Smoke Grenade"];
-    var gsg9AEquipment2 = ["Frag Grenade", "Flash Grenade"];
+    var gsg9AEquipment2 = ["Frag Grenade", "Stun Grenade"];
 
     var sasDPrimary = ["MP5K", "M590A1", "FMG-9"];
     var sasDSecondary = ["P226 MK 25", "SMG-11"];
