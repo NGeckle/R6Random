@@ -2,12 +2,13 @@
 $(document).ready(function() {
     var attackOps = ["Ash", "Sledge", "Thatcher", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck", "Blackbeard", "Capitao", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka"];
 
-    var defendOps = ["Smoke", "Mute", "Castle", "Pulse", "Doc", "Rook", "Kapkan", "Tachanka", "Jager", "Bandit", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil"];
+    var defendOps = ["Smoke", "Mute", "Castle", "Pulse", "Doc", "Rook", "Kapkan", "Tachanka", "Jager", "Bandit", "Frost", "Valkyrie", "Caveira", "Echo", "Mira", "Lesion", "Ela", "Vigil", "Alibi", "Maestro"];
 
     var recruitAttack = ["SASA", "FBIA", "GIGNA", "SpetsnazA", "GSG9A"];
 
     var recruitDefend = ["SASD", "FBID", "GIGND", "SpetsnazD", "GSG9D"];
     //Guns and equipment
+        //Attack Ops
     var ashPrimary = ["G36C", "R4-C"];
     var ashSecondary = ["M45 MEUSOC", "5.7 USG"];
     var ashEquipment = ["Breach Charge", "Stun Grenade"];
@@ -88,17 +89,19 @@ $(document).ready(function() {
     var finkaSecondary = ["PMM", "GSH-18"];
     var finkaEquipment = ["Breach Charge", "Stun Grenade"];
 
+        //Defend Ops
+
     var smokePrimary = ["FMG-9", "M590A1"];
     var smokeSecondary = ["P226 MK 25", "SMG-11"];
     var smokeEquipment = ["Barbed Wire", "Impact Grenade"];
 
     var mutePrimary = ["M590A1", "MP5K"];
     var muteSecondary = ["P226 MK 25"];
-    var muteEquipment = ["Deployable Shield", "Nitro Cell"];
+    var muteEquipment = ["Bullet-proof Camera", "Nitro Cell"];
 
     var castlePrimary = ["UMP45", "M1014"];
     var castleSecondary = ["5.7 USG", "M45 MEUSOC"];
-    var castleEquipment = ["Impact Grenade", "Deployable Shield"];
+    var castleEquipment = ["Impact Grenade", "Bullet-proof Camera"];
 
     var pulsePrimary = ["UMP45", "M1014"];
     var pulseSecondary = ["5.7 USG", "M45 MEUSOC"];
@@ -106,7 +109,7 @@ $(document).ready(function() {
 
     var docPrimary = ["SG-CQB", "MP5", "P90"];
     var docSecondary = ["P9", "LFP586"];
-    var docEquipment = ["Barbed Wire", "Deployable Shield"];
+    var docEquipment = ["Barbed Wire", "Bullet-proof Camera"];
 
     var rookPrimary = ["SG-CQB", "MP5", "P90"];
     var rookSecondary = ["P9", "LFP586"];
@@ -130,7 +133,7 @@ $(document).ready(function() {
 
     var frostPrimary = ["Super 90", "9MM C1"];
     var frostSecondary = ["MK1 9MM"];
-    var frostEquipment = ["Deployable Shield", "Barbed Wire"];
+    var frostEquipment = ["Bullet-proof Camera", "Barbed Wire"];
 
     var valkyriePrimary = ["MPX", "SPAS-12"];
     var valkyrieSecondary = ["D-50"];
@@ -138,7 +141,7 @@ $(document).ready(function() {
 
     var caveiraPrimary = ["M12", "SPAS-15"];
     var caveiraSecondary = ["Luison"];
-    var caveiraEquipment = ["Impact Grenade", "Barbed Wire"];
+    var caveiraEquipment = ["Impact Grenade", "Bullet-proof Camera"];
 
     var echoPrimary = ["MP5SD", "Supernova"];
     var echoSecondary = ["P229", "Bearing 9"];
@@ -158,7 +161,17 @@ $(document).ready(function() {
 
     var vigilPrimary = ["K1A", "BOSG 12.2"];
     var vigilSecondary = ["C75 Auto", "SMG-12"];
-    var vigilEquipment = ["Barbed Wire", "Impact Grenade"];
+    var vigilEquipment = ["Bullet-proof Camera", "Impact Grenade"];
+
+    var alibiPrimary = ["Mx4 Storm", "ACS12"];
+    var alibiSecondary = ["Bailiff 410", "Keratos .357"];
+    var alibiEquipment = ["Impact Grenade", "Deployable Shield"];
+
+    var maestroPrimary = ["ALDA 5.56", "ACS12"];
+    var maestroSecondary = ["Bailiff 410", "Keratos .357"];
+    var maestroEquipment = ["Barbed Wire", "Deployable Shield"];
+
+        //Recruits
 
     var sasAPrimary = ["M590A1", "L85A2", "AR33"];
     var sasASecondary = ["P226 MK 25", "SMG-11"];
@@ -213,8 +226,7 @@ $(document).ready(function() {
     var recruitAttackRand = recruitAttack[Math.floor(Math.random() * recruitAttack.length)];
     var recruitDefendRand = recruitDefend[Math.floor(Math.random() * recruitDefend.length)];
 
-
-    $("#attack-op").on("click", function(attackClick) {
+    var attack = function() {
         var attackOpsRand = attackOps[Math.floor(Math.random() * attackOps.length)];
         $("#display-op").text(attackOpsRand);
 
@@ -417,10 +429,9 @@ $(document).ready(function() {
             $("#display-equip").text(finkaERand);
             $("#display-equip2").text("");
         }
-        
-    });
+    };
 
-    $("#defend-op").on("click", function() {
+    var defend = function() {
         var defendOpsRand = defendOps[Math.floor(Math.random() * defendOps.length)];
         $("#display-op").text(defendOpsRand);
 
@@ -603,9 +614,29 @@ $(document).ready(function() {
             $("#display-equip").text(vigilERand);
             $("#display-equip2").text("");
         }
-    });
 
-    $("#recruit-attack").on("click", function() {
+        if (defendOpsRand === "Alibi") {
+            var alibiPRand = alibiPrimary[Math.floor(Math.random() * alibiPrimary.length)];
+            var alibiSRand = alibiSecondary[Math.floor(Math.random() * alibiSecondary.length)];
+            var alibiERand = alibiEquipment[Math.floor(Math.random() * alibiEquipment.length)];
+            $("#display-pgun").text(alibiPRand);
+            $("#display-sgun").text(alibiSRand);
+            $("#display-equip").text(alibiERand);
+            $("#display-equip2").text("");
+        }
+
+        if (defendOpsRand === "Maestro") {
+            var maestroPRand = maestroPrimary[Math.floor(Math.random() * maestroPrimary.length)];
+            var maestroSRand = maestroSecondary[Math.floor(Math.random() * maestroSecondary.length)];
+            var maestroERand = maestroEquipment[Math.floor(Math.random() * maestroEquipment.length)];
+            $("#display-pgun").text(maestroPRand);
+            $("#display-sgun").text(maestroSRand);
+            $("#display-equip").text(maestroERand);
+            $("#display-equip2").text("");
+        }
+    };
+
+    var attackRecruit = function() {
         var recruitAttackRand = recruitAttack[Math.floor(Math.random() * recruitAttack.length)];
         $("#display-op").text(recruitAttackRand);
 
@@ -663,9 +694,9 @@ $(document).ready(function() {
             $("#display-equip").text(gsg9AE1Rand);
             $("#display-equip2").text(gsg9AE2Rand);
         }
-    });
+    };
 
-    $("#recruit-defend").on("click", function() {
+    var defendRecruit = function() {
         var recruitDefendRand = recruitDefend[Math.floor(Math.random() * recruitDefend.length)];
         $("#display-op").text(recruitDefendRand);
     
@@ -723,6 +754,49 @@ $(document).ready(function() {
             $("#display-sgun").text(gsg9DSRand);
             $("#display-equip").text(gsg9DE1Rand);
             $("#display-equip2").text(gsg9DE2Rand);
+        }
+    };
+
+
+    $("#attack-op").on("click", function() {
+        if (window.location.href.indexOf("index.html") > -1) {
+            window.location = "./operator.html";
+        }
+        else {
+            attack();
+        }
+    });
+
+    $("#defend-op").on("click", function() {
+        if (window.location.href.indexOf("index.html") > -1) {
+            window.location = "./operator.html";
+        }
+        else {
+            defend();
+        }
+    });
+
+    $("#recruit-attack").on("click", function() {
+        if (window.location.href.indexOf("index.html") > -1) {
+            window.location = "./operator.html";
+        }
+        else {
+            attackRecruit();
+        }
+    });
+
+    $("#recruit-defend").on("click", function() {
+        if (window.location.href.indexOf("index.html") > -1) {
+            window.location = "./operator.html";
+        }
+        else {
+            defendRecruit();
+        }
+    });
+
+    $(window).on("load", function() {
+        if (window.location.href.indexOf("operator.html") > -1) {
+            
         }
     });
 });
