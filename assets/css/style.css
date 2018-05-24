@@ -48,6 +48,17 @@ section {
     margin: auto;
 }
 
-#operator {
+.operator {
     background-color: white;
+    padding: 10px;
+}
+
+.guns {
+    background-color: white;
+    padding: 10px;
+}
+
+.equipment {
+    background-color: white;
+    padding: 10px;
 }
