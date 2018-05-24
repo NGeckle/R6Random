@@ -1,2 +1,5 @@
 # R6Random
-Tom Clancy's Rainbow Six Siege operator randomizer that display a random operator, random gun selection, and random equipment. Also a recruit option.
+#### Tom Clancy's Rainbow Six Siege operator randomizer that display a random operator (along with their picture and their badge), random gun selection (shows a picture and how much ammo is in a clip/magazine), random equipment selection (shows how much of the equipment they have), and shows their primary gadget (with a picture and ammo count if it comes with ammo). It also has a recruit randomizer. 
+
+
+This is an unofficial site and not sponsored by Ubisoft. All images are property of Ubisoft.
