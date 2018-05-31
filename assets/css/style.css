@@ -63,3 +63,6 @@ section {
     padding: 10px;
 }
 
+body {
+    background-size: 100% 200%;
+}
