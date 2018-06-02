@@ -287,37 +287,37 @@ $(document).ready(function() {
 
             if (ashPRand === "R4-C") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/R4C.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 39</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/G36C.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 38</p>");
             }
 
             if (ashSRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (ashERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ash_229885.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ash_229885.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -339,37 +339,37 @@ $(document).ready(function() {
 
             if (sledgePRand === "L85A2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/L85A2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 47</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
 
             if (sledgeSRand === "SMG-11") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
 
             if (sledgeERand === "Frag Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-sledge_229899.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-sledge_229899.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -391,37 +391,37 @@ $(document).ready(function() {
 
             if (thatcherPRand === "L85A2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/L85A2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 47</p>");
             }
             else if (thatcherPRand === "AR33") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AR33.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 41</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
 
             if (thatcherSRand === "P226 MK 25") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
 
             if (thatcherERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-thatcher_229902.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-thatcher_229902.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -443,37 +443,37 @@ $(document).ready(function() {
 
             if (thermitePRand === "556XI") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/556XI.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
 
             if (thermiteSRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (thermiteERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-thermite_229903.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-thermite_229903.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -495,42 +495,42 @@ $(document).ready(function() {
 
             if (twitchPRand === "F2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/F2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 40</p>");
             }
             else if (twitchPRand === "417") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/417.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 69</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (twitchSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (twitchERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-twitch_229904.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-twitch_229904.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -552,32 +552,30 @@ $(document).ready(function() {
 
             if (montagnePRand === "Extendable Shield") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ExtendableShield.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
             }
 
             if (montagneSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (montagneERand === "Smoke Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-montagne_229895.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-montagne_229895.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -599,32 +597,32 @@ $(document).ready(function() {
 
             if (glazPRand === "OTs-03") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/OTs03.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 85</p>");
             }
 
             if (glazSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (glazERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-glaz_229891.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-glaz_229891.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -646,42 +644,40 @@ $(document).ready(function() {
 
             if (fuzePRand === "Ballistic Shield") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/BallisticShield.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
             }
             else if (fuzePRand === "6P41") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/6P41.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 100</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AK12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 44</p>");
             }
 
             if (fuzeSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (fuzeERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-fuze_229890.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-fuze_229890.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -703,27 +699,25 @@ $(document).ready(function() {
 
             if (blitzPRand === "Flash Shield") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/FlashShield.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
             }
 
             if (blitzSRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
 
             if (blitzERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blitz_229887.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blitz_229887.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
         }
 
@@ -745,37 +739,37 @@ $(document).ready(function() {
 
             if (iqPRand === "G8A1") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/G8A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 37</p>");
             }
             else if (iqPRand === "AUG A2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AUGA2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 41</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/552Commando.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 48</p>");
             }
 
             if (iqSRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
 
             if (iqERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-iq_229892.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-iq_229892.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -797,32 +791,34 @@ $(document).ready(function() {
 
             if (buckPRand === "CAMRS") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/CAMRS.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoP").append("<p>Damage: 69</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/C8SFW.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 37</p>");
             }
 
             if (buckSRand === "MK1 9MM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/MK19mm.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 13+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
             
             if (buckERand === "Frag Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-buck_237594.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Magazine Size: 4+1</p>");
+                $("#ammoG").append("<p>Damage: 60(x8)</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-buck_237594.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Magazine Size: 4+1</p>");
+                $("#ammoG").append("<p>Damage: 60(x8)</p>");
             }
         }
 
@@ -844,32 +840,32 @@ $(document).ready(function() {
 
             if (blackbeardPRand === "MK17 CQB") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MK17CQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoP").append("<p>Damage: 42</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SR25.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoP").append("<p>Damage: 72</p>");
             }
 
             if (blackbeardSRand === "D-50") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/D50.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 71</p>");
             }
 
             if (blackbeardERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blackbeard_250315.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blackbeard_250315.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -891,32 +887,32 @@ $(document).ready(function() {
 
             if (capitaoPRand === "PARA-308") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/PARA308.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 48</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M249.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 100</p>");
+                $("#ammoP").append("<p>Damage: 48</p>");
             }
 
             if (capitaoSRand === "PRB92") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PRB92.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (capitaoERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-capitao_263097.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-capitao_263097.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
         }
 
@@ -938,37 +934,37 @@ $(document).ready(function() {
 
             if (hibanaPRand === "Supernova") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/Supernova.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/TYPE89.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoP").append("<p>Damage: 40</p>");
             }
 
             if (hibanaSRand === "P229") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P229.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 12+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Bearing9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (hibanaERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-hibana_275609.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3(x6)</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-hibana_275609.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3(x6)</p>");
             }
         }
 
@@ -989,42 +985,42 @@ $(document).ready(function() {
 
             if (jackalPRand === "C7E") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/C7E.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
             else if (jackalPRand === "PDW9") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/PDW9.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 34</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ITA12L.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 50(x8)</p>");
             }
 
             if (jackalSRand === "USP40") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/USP40.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 12+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/ITA12S.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 4+1</p>");
+                $("#ammoS").append("<p>Damage: 60(x8)</p>");
             }
 
             if (jackalERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-jackal.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-jackal.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -1045,32 +1041,32 @@ $(document).ready(function() {
 
             if (yingPRand === "T-95 LSW") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/T95LSW.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 80+1</p>");
+                $("#ammoP").append("<p>Damage: 43</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SIX12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6</p>");
+                $("#ammoP").append("<p>Damage: 35(x8)</p>");
             }
 
             if (yingSRand === "Q-929") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Q929.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoS").append("<p>Damage: 60</p>");
             }
             
             if (yingERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ying_301976.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ying_301976.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -1091,32 +1087,32 @@ $(document).ready(function() {
 
             if (zofiaPRand === "LMG-E") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/LMGE.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 150</p>");
+                $("#ammoP").append("<p>Damage: 41</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M762.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 45</p>");
             }
 
             if (zofiaSRand === "RG15") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/RG15.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
             
             if (zofiaERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operator-zofia_gadget-1-2_307016.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 6</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operator-zofia_gadget-1-2_307016.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 6</p>");
             }
         }
 
@@ -1137,37 +1133,37 @@ $(document).ready(function() {
 
             if (dokkaebiPRand === "MK14 EBR") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MK14EBR.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoP").append("<p>Damage: 60</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/BOSG122.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 2</p>");
+                $("#ammoP").append("<p>Damage: 125</p>");
             }
 
             if (dokkaebiSRand === "C75 Auto") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/C75Auto.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 26+1</p>");
+                $("#ammoS").append("<p>Damage: 35</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 32+1</p>");
+                $("#ammoS").append("<p>Damage: 27</p>");
             }
 
             if (dokkaebiERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6_operator_dokkaebi_gadgets_307133.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6_operator_dokkaebi_gadgets_307133.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -1188,42 +1184,42 @@ $(document).ready(function() {
 
             if (lionPRand === "V308") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/V308.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 44</p>");
             }
             else if (lionPRand === "417") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/417.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 69</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (lionSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (lionERand === "Claymore") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege-v3/r6-gadgets-lion-2-22_319306.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege-v3/r6-gadgets-lion-2-22_319306.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -1244,42 +1240,42 @@ $(document).ready(function() {
 
             if (finkaPRand === "SASG-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 49(x8)</p>");
             }
             else if (finkaPRand === "6P41") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/6P41.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 100</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/Spear308.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 40</p>");
             }
 
             if (finkaSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (finkaERand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege-v3/r6-gadgets-finka-2-22_319305.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege-v3/r6-gadgets-finka-2-22_319305.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -1303,47 +1299,47 @@ $(document).ready(function() {
 
                 if (sasAPRand === "L85A2") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/L85A2.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 47</p>");
                 }
                 else if (sasAPRand === "AR33") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/AR33.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                    $("#ammoP").append("<p>Damage: 41</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 48(x8)</p>");
                 }
     
                 if (sasASRand === "P226 MK 25") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                    $("#ammoS").append("<p>Damage: 50</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                    $("#ammoS").append("<p>Damage: 33</p>");
                 }
     
                 if (sasAE1Rand === "Breach Charge") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 3</p>");
                 }
                 else {
                     $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
 
                 if (sasAE2Rand === "Frag Grenade") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 2</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 3</p>");
                 }
             }
     
@@ -1364,52 +1360,50 @@ $(document).ready(function() {
 
                 if (fbiAPRand === "Ballistic Shield") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/BallisticShield.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
                 }
                 else if (fbiAPRand === "R4-C") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/R4C.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 39</p>");
                 }
                 else if (fbiAPRand === "M1014") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                    $("#ammoP").append("<p>Damage: 32(x8)</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/556XI.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 46</p>");
                 }
     
                 if (fbiASRand === "M45 MEUSOC") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                    $("#ammoS").append("<p>Damage: 58</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                    $("#ammoS").append("<p>Damage: 42</p>");
                 }
     
                 if (fbiAE1Rand === "Breach Charge") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 3</p>");
                 }
                 else {
                     $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
 
                 if (fbiAE2Rand === "Frag Grenade") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 2</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 3</p>");
                 }
             }
     
@@ -1430,52 +1424,50 @@ $(document).ready(function() {
 
                 if (gignAPRand === "Ballistic Shield") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/BallisticShield.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
                 }
                 else if (gignAPRand === "F2") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/F2.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 40</p>");
                 }
                 else if (gignAPRand === "417") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/417.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                    $("#ammoP").append("<p>Damage: 69</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 53(x8)</p>");
                 }
     
                 if (gignASRand === "P9") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                    $("#ammoS").append("<p>Damage: 45</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 6</p>");
+                    $("#ammoS").append("<p>Damage: 78</p>");
                 }
     
                 if (gignAE1Rand === "Breach Charge") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 3</p>");
                 }
                 else {
                     $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
 
                 if (gignAE2Rand === "Frag Grenade") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 2</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 3</p>");
                 }
             }
     
@@ -1498,47 +1490,47 @@ $(document).ready(function() {
 
                 if (spetsnazAPRand === "6P41") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/6P41.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 100</p>");
+                    $("#ammoP").append("<p>Damage: 46</p>");
                 }
                 else if (spetsnazAPRand === "SASG-12") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                    $("#ammoP").append("<p>Damage: 49(x8)</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/AK12.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 44</p>");
                 }
     
                 if (spetsnazASRand === "PMM") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                    $("#ammoS").append("<p>Damage: 63</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                    $("#ammoS").append("<p>Damage: 33</p>");
                 }
     
                 if (spetsnazAE1Rand === "Breach Charge") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 3</p>");
                 }
                 else {
                     $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
 
                 if (spetsnazAE2Rand === "Frag Grenade") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 2</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 3</p>");
                 }
             }
     
@@ -1559,47 +1551,47 @@ $(document).ready(function() {
 
                 if (gsg9APRand === "AUG A2") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/AUGA2.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 41</p>");
                 }
                 else if (gsg9APRand === "M870") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 60(x8)</p>");
                 }
                 else if (gsg9APRand === "G8A1") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/G8A1.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                    $("#ammoP").append("<p>Damage: 37</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/552Commando.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 48</p>");
                 }
     
                 if (gsg9ASRand === "P12") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                    $("#ammoS").append("<p>Damage: 44</p>");
                 }
     
                 if (gsg9AE1Rand === "Breach Charge") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 3</p>");
                 }
                 else {
                     $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
 
                 if (gsg9AE2Rand === "Frag Grenade") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 2</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 3</p>");
                 }
             }
         }
@@ -1626,37 +1618,37 @@ $(document).ready(function() {
 
             if (smokePRand === "M590A1") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/FMG9.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
 
             if (smokeSRand === "P226 MK 25") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (smokeERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-smoke_229900.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-smoke_229900.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -1678,32 +1670,32 @@ $(document).ready(function() {
 
             if (mutePRand === "M590A1") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5K.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
 
             if (muteSRand === "P226 MK 25") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             
             if (muteERand === "Nitro Cell") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-mute_229896.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-mute_229896.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
         }
 
@@ -1725,37 +1717,37 @@ $(document).ready(function() {
 
             if (castlePRand === "M1014") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/UMP45.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 38</p>");
             }
 
             if (castleSRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (castleERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-castle_229888.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-castle_229888.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -1777,37 +1769,37 @@ $(document).ready(function() {
 
             if (pulsePRand === "M1014") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/UMP45.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 38</p>");
             }
 
             if (pulseSRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (pulseERand === "Nitro Cell") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-pulse_229897.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-pulse_229897.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -1829,42 +1821,42 @@ $(document).ready(function() {
 
             if (docPRand === "P90") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/P90.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 22</p>");
             }
             else if (docPRand === "MP5") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (docSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (docERand === "Bullet-proof Camera") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-doc_229889.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-doc_229889.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -1886,42 +1878,42 @@ $(document).ready(function() {
 
             if (rookPRand === "P90") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/P90.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 22</p>");
             }
             else if (rookPRand === "MP5") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (rookSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (rookERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-rook_229898.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1(x5)</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-rook_229898.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1(x5)</p>");
             }
         }
 
@@ -1943,37 +1935,37 @@ $(document).ready(function() {
 
             if (kapkanPRand === "SASG-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 49(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/9x19VSN.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 34</p>");
             }
 
             if (kapkanSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (kapkanERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-kapkan_229894.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 5</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-kapkan_229894.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 5</p>");
             }
         }
 
@@ -1995,37 +1987,41 @@ $(document).ready(function() {
 
             if (tachankaPRand === "SASG-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 49(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/9x19VSN.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 34</p>");
             }
 
             if (tachankaSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (tachankaERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-tachanka_229901.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
+                $("#ammoG").append("<p>Magazine Size: 60+1</p>");
+                $("#ammoG").append("<p>Damage: 66</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-tachanka_229901.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
+                $("#ammoG").append("<p>Magazine Size: 60+1</p>");
+                $("#ammoG").append("<p>Damage: 66</p>");
             }
         }
 
@@ -2047,32 +2043,32 @@ $(document).ready(function() {
 
             if (jagerPRand === "M870") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 60(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/416CCarbine.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 43</p>");
             }
 
             if (jagerSRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
             
             if (jagerERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-jager_229893.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-jager_229893.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -2094,32 +2090,32 @@ $(document).ready(function() {
 
             if (banditPRand === "MP7") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP7.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 32</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 60(x8)</p>");
             }
 
             if (banditSRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
             
             if (banditERand === "Nitro Cell") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-bandit_229886.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-bandit_229886.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 4</p>");
             }
         }
 
@@ -2141,32 +2137,32 @@ $(document).ready(function() {
 
             if (frostPRand === "Super 90") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SUPER90.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/9mmC1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 34+1</p>");
+                $("#ammoP").append("<p>Damage: 43</p>");
             }
 
             if (frostSRand === "MK1 9MM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/MK19mm.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 13+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
             
             if (frostERand === "Bullet-proof Camera") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-frost_237597.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-frost_237597.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -2188,32 +2184,32 @@ $(document).ready(function() {
 
             if (valkyriePRand === "MPX") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MPX.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 26</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SPAS12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 35(x8)</p>");
             }
 
             if (valkyrieSRand === "D-50") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/D50.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 71</p>");
             }
             
             if (valkyrieERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-valkyrie_250316.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
-                $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-valkyrie_250316.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -2234,32 +2230,32 @@ $(document).ready(function() {
 
             if (caveiraPRand === "M12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 36</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SPAS15.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 30(x8)</p>");
             }
 
             if (caveiraSRand === "Luison") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Luison.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 99</p>");
             }
             
             if (caveiraERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-caveira_263103.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-caveira_263103.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -2281,37 +2277,37 @@ $(document).ready(function() {
 
             if (echoPRand === "MP5SD") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5SD.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/Supernova.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
 
             if (echoSRand === "P229") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P229.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 12+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Bearing9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (echoERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-echo_275610.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-echo_275610.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -2332,37 +2328,37 @@ $(document).ready(function() {
 
             if (miraPRand === "ITA12L") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ITA12L.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 50(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/Vector45ACP.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 21</p>");
             }
 
             if (miraSRand === "ITA12S") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/ITA12S.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 4+1</p>");
+                $("#ammoS").append("<p>Damage: 60(x8)</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/USP40.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 12+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
 
             if (miraERand === "Nitro Cell") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-mira.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-mira.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -2383,32 +2379,32 @@ $(document).ready(function() {
 
             if (lesionPRand === "SIX12 SD") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SIX12SD.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6</p>");
+                $("#ammoP").append("<p>Damage: 35(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/T5SMG.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
 
             if (lesionSRand === "Q-929") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Q929.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoS").append("<p>Damage: 60</p>");
             }
             
             if (lesionERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/lesion-gadget_301942.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 8</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/lesion-gadget_301942.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 8</p>");
             }
         }
 
@@ -2429,32 +2425,32 @@ $(document).ready(function() {
 
             if (elaPRand === "FO-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/FO12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 35(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ScorpianEVO3A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 40+1</p>");
+                $("#ammoP").append("<p>Damage: 23</p>");
             }
 
             if (elaSRand === "RG15") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/RG15.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 48</p>");
             }
             
             if (elaERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ela_301982.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3(+1)</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-ela_301982.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3(+1)</p>");
             }
         }
 
@@ -2476,37 +2472,37 @@ $(document).ready(function() {
 
             if (vigilPRand === "K1A") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/K1A.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 36</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/BOSG122.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 2</p>");
+                $("#ammoP").append("<p>Damage: 125</p>");
             }
 
             if (vigilSRand === "C75 Auto") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/C75Auto.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 26+1</p>");
+                $("#ammoS").append("<p>Damage: 35</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 32+1</p>");
+                $("#ammoS").append("<p>Damage: 27</p>");
             }
 
             if (vigilERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6_gadgets_operator_vigil-2_307137.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BulletproofCamera.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6_gadgets_operator_vigil-2_307137.png' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: &infin;</p>");
             }
         }
 
@@ -2527,37 +2523,37 @@ $(document).ready(function() {
 
             if (alibiPRand === "Mx4 Storm") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MX4Storm.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 26</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ACS12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 27(x8)</p>");
             }
 
             if (alibiSRand === "Bailiff 410") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Bailiff410.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 5</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Keratos357.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (alibiERand === "Impact Grenade") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/ImpactGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -2579,37 +2575,37 @@ $(document).ready(function() {
 
             if (maestroPRand === "ALDA 5.56") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ALDA556.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 80+1</p>");
+                $("#ammoP").append("<p>Damage: 35</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/ACS12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 27(x8)</p>");
             }
 
             if (maestroSRand === "Bailiff 410") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Bailiff410.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 5</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/Keratos357.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (maestroERand === "Deployable Shield") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='' width='225'>");
-                $("#ammoG").append("<p>Ammo/Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
         }
 
@@ -2633,43 +2629,43 @@ $(document).ready(function() {
 
                 if (sasDPRand === "MP5K") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/MP5K.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 30</p>");
                 }
                 else if (sasDPRand === "FMG-9") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/FMG9.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 30</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 48(x8)</p>");
                 }
     
                 if (sasDSRand === "P226 MK 25") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                    $("#ammoS").append("<p>Damage: 50</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                    $("#ammoS").append("<p>Damage: 33</p>");
                 }
     
                 if (sasDE1Rand === "Barbed Wire") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
                 
                 if (sasDE2Rand === "Nitro Cell") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
             }
     
@@ -2690,38 +2686,38 @@ $(document).ready(function() {
 
                 if (fbiDPRand === "M1014") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                    $("#ammoP").append("<p>Damage: 32(x8)</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/UMP45.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                    $("#ammoP").append("<p>Damage: 38</p>");
                 }
     
                 if (fbiDSRand === "M45 MEUSOC") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                    $("#ammoS").append("<p>Damage: 58</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                    $("#ammoS").append("<p>Damage: 42</p>");
                 }
     
                 if (fbiDE1Rand === "Barbed Wire") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
                 
                 if (fbiDE2Rand === "Nitro Cell") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
             }
     
@@ -2742,43 +2738,43 @@ $(document).ready(function() {
 
                 if (gignDPRand === "P90") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/P90.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                    $("#ammoP").append("<p>Damage: 22</p>");
                 }
                 else if (gignDPRand === "MP5") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/MP5.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 30</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 53(x8)</p>");
                 }
     
                 if (gignDSRand === "P9") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                    $("#ammoS").append("<p>Damage: 45</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 6</p>");
+                    $("#ammoS").append("<p>Damage: 78</p>");
                 }
     
                 if (gignDE1Rand === "Barbed Wire") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
                 
                 if (gignDE2Rand === "Nitro Cell") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
             }
     
@@ -2801,38 +2797,38 @@ $(document).ready(function() {
 
                 if (spetsnazDPRand === "SASG-12") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                    $("#ammoP").append("<p>Damage: 49(x8)</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/9x19VSN.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 34</p>");
                 }
     
                 if (spetsnazDSRand === "PMM") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                    $("#ammoS").append("<p>Damage: 63</p>");
                 }
                 else {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                    $("#ammoS").append("<p>Damage: 33</p>");
                 }
     
                 if (spetsnazDE1Rand === "Barbed Wire") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
                 
                 if (spetsnazDE2Rand === "Nitro Cell") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
             }
     
@@ -2853,38 +2849,38 @@ $(document).ready(function() {
 
                 if (gsg9DPRand === "MP7") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/MP7.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 32</p>");
                 }
                 else if (gsg9DPRand === "M870") {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                    $("#ammoP").append("<p>Damage: 60(x8)</p>");
                 }
                 else {
                     $("#display-pgun").prepend("<img src='./assets/images/guns/416CCarbine.png' width='225'>");
-                    $("#ammoP").append("<p>Ammo: </p>");
-                    $("#ammoP").append("<p>Damage: </p>");
+                    $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                    $("#ammoP").append("<p>Damage: 43</p>");
                 }
     
                 if (gsg9DSRand === "P12") {
                     $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                    $("#ammoS").append("<p>Ammo: </p>");
-                    $("#ammoS").append("<p>Damage: </p>");
+                    $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                    $("#ammoS").append("<p>Damage: 44</p>");
                 }
                 
                 if (gsg9DE1Rand === "Barbed Wire") {
                     $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                    $("#ammoE").append("<p>Amount: </p>");
+                    $("#ammoE").append("<p>Amount: 2</p>");
                 }
                 
                 if (gsg9DE2Rand === "Nitro Cell") {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
                 else {
                     $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                    $("#ammoG").append("<p>Amount: </p>");
+                    $("#ammoG").append("<p>Amount: 1</p>");
                 }
             }
         }
@@ -2910,47 +2906,47 @@ $(document).ready(function() {
 
             if (sasAPRand === "L85A2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/L85A2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 47</p>");
             }
             else if (sasAPRand === "AR33") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AR33.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 41</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
+                $("#ammoP").append("<p>Magazine Size: </p>");
                 $("#ammoP").append("<p>Damage: </p>");
             }
 
             if (sasASRand === "P226 MK 25") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (sasAE1Rand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
 
             if (sasAE2Rand === "Frag Grenade") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -2971,52 +2967,50 @@ $(document).ready(function() {
 
             if (fbiAPRand === "Ballistic Shield") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/BallisticShield.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
             }
             else if (fbiAPRand === "R4-C") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/R4C.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 39</p>");
             }
             else if (fbiAPRand === "M1014") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/556XI.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
 
             if (fbiASRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (fbiAE1Rand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
 
             if (fbiAE2Rand === "Frag Grenade") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -3037,52 +3031,50 @@ $(document).ready(function() {
 
             if (gignAPRand === "Ballistic Shield") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/BallisticShield.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
             }
             else if (gignAPRand === "F2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/F2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 40</p>");
             }
             else if (gignAPRand === "417") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/417.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 69</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (gignASRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (gignAE1Rand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
 
             if (gignAE2Rand === "Frag Grenade") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -3105,47 +3097,47 @@ $(document).ready(function() {
 
             if (spetsnazAPRand === "6P41") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/6P41.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 100</p>");
+                $("#ammoP").append("<p>Damage: 46</p>");
             }
             else if (spetsnazAPRand === "SASG-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 49(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AK12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 44</p>");
             }
 
             if (spetsnazASRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (spetsnazAE1Rand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
 
             if (spetsnazAE2Rand === "Frag Grenade") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
 
@@ -3166,47 +3158,47 @@ $(document).ready(function() {
 
             if (gsg9APRand === "AUG A2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/AUGA2.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 41</p>");
             }
             else if (gsg9APRand === "M870") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 60(x8)</p>");
             }
             else if (gsg9APRand === "G8A1") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/G8A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 37</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/552Commando.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 48</p>");
             }
 
             if (gsg9ASRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
 
             if (gsg9AE1Rand === "Breach Charge") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 3</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/SmokeGrenade.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
 
             if (gsg9AE2Rand === "Frag Grenade") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 2</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 3</p>");
             }
         }
     };
@@ -3231,43 +3223,43 @@ $(document).ready(function() {
 
             if (sasDPRand === "MP5K") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5K.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else if (sasDPRand === "FMG-9") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/FMG9.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
+                $("#ammoP").append("<p>Magazine Size: </p>");
                 $("#ammoP").append("<p>Damage: </p>");
             }
 
             if (sasDSRand === "P226 MK 25") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P226MK25.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 50</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/SMG11.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (sasDE1Rand === "Barbed Wire") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
             
             if (sasDE2Rand === "Nitro Cell") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
         }
 
@@ -3288,38 +3280,38 @@ $(document).ready(function() {
 
             if (fbiDPRand === "M1014") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M1014.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoP").append("<p>Damage: 32(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/UMP45.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 25+1</p>");
+                $("#ammoP").append("<p>Damage: 38</p>");
             }
 
             if (fbiDSRand === "M45 MEUSOC") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/M45MEUSOC.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 7+1</p>");
+                $("#ammoS").append("<p>Damage: 58</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/57USG.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 20+1</p>");
+                $("#ammoS").append("<p>Damage: 42</p>");
             }
 
             if (fbiDE1Rand === "Barbed Wire") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
             
             if (fbiDE2Rand === "Nitro Cell") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
         }
 
@@ -3340,43 +3332,43 @@ $(document).ready(function() {
 
             if (gignDPRand === "P90") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/P90.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 50+1</p>");
+                $("#ammoP").append("<p>Damage: 22</p>");
             }
             else if (gignDPRand === "MP5") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP5.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 30</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SGCQB.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 53(x8)</p>");
             }
 
             if (gignDSRand === "P9") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P9.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 16+1</p>");
+                $("#ammoS").append("<p>Damage: 45</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/LFP586.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 6</p>");
+                $("#ammoS").append("<p>Damage: 78</p>");
             }
 
             if (gignDE1Rand === "Barbed Wire") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
             
             if (gignDE2Rand === "Nitro Cell") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
         }
 
@@ -3399,38 +3391,38 @@ $(document).ready(function() {
 
             if (spetsnazDPRand === "SASG-12") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SASG12.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 10+1</p>");
+                $("#ammoP").append("<p>Damage: 49(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/9x19VSN.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 34</p>");
             }
 
             if (spetsnazDSRand === "PMM") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/PMM.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 8+1</p>");
+                $("#ammoS").append("<p>Damage: 63</p>");
             }
             else {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/GSH18.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 18+1</p>");
+                $("#ammoS").append("<p>Damage: 33</p>");
             }
 
             if (spetsnazDE1Rand === "Barbed Wire") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
             
             if (spetsnazDE2Rand === "Nitro Cell") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
         }
 
@@ -3451,38 +3443,38 @@ $(document).ready(function() {
 
             if (gsg9DPRand === "MP7") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MP7.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 32</p>");
             }
             else if (gsg9DPRand === "M870") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M870.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 60(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/416CCarbine.png' width='225'>");
-                $("#ammoP").append("<p>Ammo: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 30+1</p>");
+                $("#ammoP").append("<p>Damage: 43</p>");
             }
 
             if (gsg9DSRand === "P12") {
                 $("#display-sgun").prepend("<img src='./assets/images/guns/P12.png' width='225'>");
-                $("#ammoS").append("<p>Ammo: </p>");
-                $("#ammoS").append("<p>Damage: </p>");
+                $("#ammoS").append("<p>Magazine Size: 15+1</p>");
+                $("#ammoS").append("<p>Damage: 44</p>");
             }
             
             if (gsg9DE1Rand === "Barbed Wire") {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BarbedWire.png' width='225'>");
-                $("#ammoE").append("<p>Amount: </p>");
+                $("#ammoE").append("<p>Amount: 2</p>");
             }
             
             if (gsg9DE2Rand === "Nitro Cell") {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/NitroCell.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
             else {
                 $("#display-equip2").prepend("<img src='./assets/images/guns/DeployableShield.png' width='225'>");
-                $("#ammoG").append("<p>Amount: </p>");
+                $("#ammoG").append("<p>Amount: 1</p>");
             }
         }
     };
