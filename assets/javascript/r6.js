@@ -2916,8 +2916,8 @@ $(document).ready(function() {
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Magazine Size: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
 
             if (sasASRand === "P226 MK 25") {
@@ -3233,8 +3233,8 @@ $(document).ready(function() {
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/M590A1.png' width='225'>");
-                $("#ammoP").append("<p>Magazine Size: </p>");
-                $("#ammoP").append("<p>Damage: </p>");
+                $("#ammoP").append("<p>Magazine Size: 6+1</p>");
+                $("#ammoP").append("<p>Damage: 48(x8)</p>");
             }
 
             if (sasDSRand === "P226 MK 25") {
@@ -3481,16 +3481,16 @@ $(document).ready(function() {
 
     //On click events
     $("#attack-op").on("click", function() {
-        if (window.location.href.indexOf("index.html") > -1) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./attack.html";
         }
-        else if (window.location.href.indexOf("defense.html") > -1) {
+        else if (window.location.href.includes("defense.html")) {
             window.location = "./attack.html";
         }
-        else if (window.location.href.indexOf("recruitAttack.html") > -1) {
+        else if (window.location.href.includes("recruitAttack.html")) {
             window.location = "./attack.html";
         }
-        else if (window.location.href.indexOf("recruitDefense.html") > -1) {
+        else if (window.location.href.includes("recruitDefense.html")) {
             window.location = "./attack.html";
         }
         else {
@@ -3499,16 +3499,16 @@ $(document).ready(function() {
     });
 
     $("#defend-op").on("click", function() {
-        if (window.location.href.indexOf("index.html") > -1) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./defense.html";
         }
-        else if (window.location.href.indexOf("attack.html") > -1) {
+        else if (window.location.href.includes("attack.html")) {
             window.location = "./defense.html";
         }
-        else if (window.location.href.indexOf("recruitAttack.html") > -1) {
+        else if (window.location.href.includes("recruitAttack.html")) {
             window.location = "./defense.html";
         }
-        else if (window.location.href.indexOf("recruitDefense.html") > -1) {
+        else if (window.location.href.includes("recruitDefense.html")) {
             window.location = "./defense.html";
         }
         else {
@@ -3517,16 +3517,16 @@ $(document).ready(function() {
     });
 
     $("#recruit-attack").on("click", function() {
-        if (window.location.href.indexOf("index.html") > -1) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./recruitAttack.html";
         }
-        else if (window.location.href.indexOf("defense.html") > -1) {
+        else if (window.location.href.includes("defense.html")) {
             window.location = "./recruitAttack.html";
         }
-        else if (window.location.href.indexOf("attack.html") > -1) {
+        else if (window.location.href.includes("attack.html")) {
             window.location = "./recruitAttack.html";
         }
-        else if (window.location.href.indexOf("recruitDefense.html") > -1) {
+        else if (window.location.href.includes("recruitDefense.html")) {
             window.location = "./recruitAttack.html";
         }
         else {
@@ -3535,16 +3535,16 @@ $(document).ready(function() {
     });
 
     $("#recruit-defend").on("click", function() {
-        if (window.location.href.indexOf("index.html") > -1) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./recruitDefense.html";
         }
-        else if (window.location.href.indexOf("defense.html") > -1) {
+        else if (window.location.href.includes("defense.html")) {
             window.location = "./recruitDefense.html";
         }
-        else if (window.location.href.indexOf("recruitAttack.html") > -1) {
+        else if (window.location.href.includes("recruitAttack.html")) {
             window.location = "./recruitDefense.html";
         }
-        else if (window.location.href.indexOf("attack.html") > -1) {
+        else if (window.location.href.includes("attack.html")) {
             window.location = "./recruitDefense.html";
         }
         else {
@@ -3554,16 +3554,16 @@ $(document).ready(function() {
 
     //On load run the randomize function for the specific page
     $(window).on("load", function() {
-        if (window.location.href.indexOf("attack.html") > -1) {
+        if (window.location.href.includes("attack.html")) {
             attack();
         }
-        if (window.location.href.indexOf("defense.html") > -1) {
+        if (window.location.href.includes("defense.html")) {
             defend();
         }
-        if (window.location.href.indexOf("recruitAttack.html") > -1) {
+        if (window.location.href.includes("recruitAttack.html")) {
             attackRecruit();
         }
-        if (window.location.href.indexOf("recruitDefense.html") > -1) {
+        if (window.location.href.includes("recruitDefense.html")) {
             defendRecruit();
         }
     });

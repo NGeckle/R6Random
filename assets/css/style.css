@@ -67,7 +67,7 @@ section {
 }
 
 body {
-    background-size: 100% 200%;
+    background-size: 100% 265%;
 }
 
 #gadgetName {
@@ -78,3 +78,8 @@ body {
 #title {
     color: white;
 }
+
+/* #attack-op:hover {
+    position: relative;
+    top: 10px;
+} */
