@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    window.location = "./index.html";
     //Operators
     var attackOps = ["Ash", "Sledge", "Thatcher", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck", "Blackbeard", "Capitao", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka", "Recruit"];
 
