@@ -3481,10 +3481,7 @@ $(document).ready(function() {
 
     //On click events
     $("#attack-op").on("click", function() {
-        if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./attack.html";
-        }
-        else if (window.location.href.includes("index.html")) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./attack.html";
         }
         else if (window.location.href.includes("defense.html")) {
@@ -3502,10 +3499,7 @@ $(document).ready(function() {
     });
 
     $("#defend-op").on("click", function() {
-        if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./defense.html";
-        }
-        else if (window.location.href.includes("index.html")) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./defense.html";
         }
         else if (window.location.href.includes("attack.html")) {
@@ -3523,10 +3517,7 @@ $(document).ready(function() {
     });
 
     $("#recruit-attack").on("click", function() {
-        if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./recruitAttack.html";
-        }
-        else if (window.location.href.includes("index.html")) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./recruitAttack.html";
         }
         else if (window.location.href.includes("defense.html")) {
@@ -3544,10 +3535,7 @@ $(document).ready(function() {
     });
 
     $("#recruit-defend").on("click", function() {
-        if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./recruitDefese.html";
-        }
-        else if (window.location.href.includes("index.html")) {
+        if (window.location.href.includes("index.html")) {
             window.location = "./recruitDefense.html";
         }
         else if (window.location.href.includes("defense.html")) {
@@ -3566,6 +3554,9 @@ $(document).ready(function() {
 
     //On load run the randomize function for the specific page
     $(window).on("load", function() {
+        if (window.location.href === "https://ngeckle.github.io/R6Random/") {
+            window.location = "./index.html";
+        }
         if (window.location.href.includes("attack.html")) {
             attack();
         }
