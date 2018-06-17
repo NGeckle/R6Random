@@ -3503,7 +3503,7 @@ $(document).ready(function() {
 
     $("#defend-op").on("click", function() {
         if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./attack.html";
+            window.location = "./defense.html";
         }
         else if (window.location.href.includes("index.html")) {
             window.location = "./defense.html";
@@ -3524,7 +3524,7 @@ $(document).ready(function() {
 
     $("#recruit-attack").on("click", function() {
         if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./attack.html";
+            window.location = "./recruitAttack.html";
         }
         else if (window.location.href.includes("index.html")) {
             window.location = "./recruitAttack.html";
@@ -3545,7 +3545,7 @@ $(document).ready(function() {
 
     $("#recruit-defend").on("click", function() {
         if (window.location.href === "https://ngeckle.github.io/R6Random/") {
-            window.location = "./attack.html";
+            window.location = "./recruitDefese.html";
         }
         else if (window.location.href.includes("index.html")) {
             window.location = "./recruitDefense.html";
