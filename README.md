@@ -3,4 +3,5 @@
 
 ##### I recommend this be used for casual. I don't recommend this to be used on ranked unless you are confident you will do well, or if you are with a group who don't care.
 
+It doesn't work on Safari for some reason, but it does work on Chrome. If any one sees this and wants to try it on other browsers for me you are welcome to.
 This is an unofficial site and not sponsored by Ubisoft. All images are property of Ubisoft.
