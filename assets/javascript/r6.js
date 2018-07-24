@@ -56,7 +56,7 @@ $(document).ready(function() {
 
     var iqPrimary = ["AUG A2", "552 Commando", "G8A1"];
     var iqSecondary = ["P12"];
-    var iqEquipment = ["Frag Grenade", "Breach Charge"];
+    var iqEquipment = ["Claymore", "Breach Charge"];
     var iqGadget = ["Electronics Detector"];
 
     var buckPrimary = ["C8-SFW", "CAMRS"];
@@ -96,7 +96,7 @@ $(document).ready(function() {
 
     var dokkaebiPrimary = ["MK14 EBR", "BOSG 12.2"];
     var dokkaebiSecondary = ["C75 Auto", "SMG-12"];
-    var dokkaebiEquipment = ["Smoke Grenade", "Claymore"];
+    var dokkaebiEquipment = ["Smoke Grenade", "Stun Grenade"];
     var dokkaebiGadget = ["Logic Bomb"];
 
     var lionPrimary = ["V308", "417", "SG-CQB"];
@@ -106,7 +106,7 @@ $(document).ready(function() {
 
     var finkaPrimary = ["Spear .308", "6P41", "SASG-12"];
     var finkaSecondary = ["PMM", "GSH-18"];
-    var finkaEquipment = ["Breach Charge", "Stun Grenade"];
+    var finkaEquipment = ["Breach Charge", "Frag Grenade"];
     var finkaGadget = ["Adrenal Surge"];
 
         //Defend Ops
@@ -496,7 +496,7 @@ $(document).ready(function() {
             if (twitchPRand === "F2") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/F2.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 30+1</p>");
-                $("#ammoP").append("<p>Damage: 40</p>");
+                $("#ammoP").append("<p>Damage: 37</p>");
             }
             else if (twitchPRand === "417") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/417.png' width='225'>");
@@ -598,7 +598,7 @@ $(document).ready(function() {
             if (glazPRand === "OTs-03") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/OTs03.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 10+1</p>");
-                $("#ammoP").append("<p>Damage: 85</p>");
+                $("#ammoP").append("<p>Damage: 71</p>");
             }
 
             if (glazSRand === "PMM") {
@@ -766,7 +766,7 @@ $(document).ready(function() {
                 $("#ammoG").append("<p>Amount: &infin;</p>");
             }
             else {
-                $("#display-equip").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
+                $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
                 $("#ammoE").append("<p>Amount: 2</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-iq_229892.png' width='225'>");
                 $("#ammoG").append("<p>Amount: &infin;</p>");
@@ -841,12 +841,12 @@ $(document).ready(function() {
             if (blackbeardPRand === "MK17 CQB") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/MK17CQB.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 20+1</p>");
-                $("#ammoP").append("<p>Damage: 42</p>");
+                $("#ammoP").append("<p>Damage: 49</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SR25.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 20+1</p>");
-                $("#ammoP").append("<p>Damage: 72</p>");
+                $("#ammoP").append("<p>Damage: 61</p>");
             }
 
             if (blackbeardSRand === "D-50") {
@@ -859,13 +859,13 @@ $(document).ready(function() {
                 $("#display-equip").prepend("<img src='./assets/images/guns/BreachCharge.png' width='225'>");
                 $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blackbeard_250315.png' width='225'>");
-                $("#ammoG").append("<p>Amount: 2</p>");
+                $("#ammoG").append("<p>Amount: 2</p><p>Health: 50</p>");
             }
             else {
                 $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
                 $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6-operators-gadget-blackbeard_250315.png' width='225'>");
-                $("#ammoG").append("<p>Amount: 2</p>");
+                $("#ammoG").append("<p>Amount: 2</p><p>Health: 50</p>");
             }
         }
 
@@ -1153,8 +1153,8 @@ $(document).ready(function() {
                 $("#ammoS").append("<p>Damage: 27</p>");
             }
 
-            if (dokkaebiERand === "Claymore") {
-                $("#display-equip").prepend("<img src='./assets/images/guns/Claymore.png' width='225'>");
+            if (dokkaebiERand === "Stun Grenade") {
+                $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
                 $("#ammoE").append("<p>Amount: 1</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege/r6_operator_dokkaebi_gadgets_307133.png' width='225'>");
                 $("#ammoG").append("<p>Amount: 2</p>");
@@ -1272,7 +1272,7 @@ $(document).ready(function() {
                 $("#ammoG").append("<p>Amount: 3</p>");
             }
             else {
-                $("#display-equip").prepend("<img src='./assets/images/guns/StunGrenade.png' width='225'>");
+                $("#display-equip").prepend("<img src='./assets/images/guns/FragGrenade.png' width='225'>");
                 $("#ammoE").append("<p>Amount: 3</p>");
                 $("#display-equip2").prepend("<img src='https://ubistatic19-a.akamaihd.net/resource/en-us/game/rainbow6/siege-v3/r6-gadgets-finka-2-22_319305.png' width='225'>");
                 $("#ammoG").append("<p>Amount: 3</p>");
@@ -2138,12 +2138,12 @@ $(document).ready(function() {
             if (frostPRand === "Super 90") {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/SUPER90.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 7+1</p>");
-                $("#ammoP").append("<p>Damage: 32(x8)</p>");
+                $("#ammoP").append("<p>Damage: 35(x8)</p>");
             }
             else {
                 $("#display-pgun").prepend("<img src='./assets/images/guns/9mmC1.png' width='225'>");
                 $("#ammoP").append("<p>Magazine Size: 34+1</p>");
-                $("#ammoP").append("<p>Damage: 43</p>");
+                $("#ammoP").append("<p>Damage: 45</p>");
             }
 
             if (frostSRand === "MK1 9MM") {
